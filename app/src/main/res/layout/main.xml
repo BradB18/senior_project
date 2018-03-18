@@ -10,46 +10,47 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="190"
+        android:layout_width="190dp"
         android:layout_height="195dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/parking_icon"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/parking_icon" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="190"
-        android:layout_height="195"
+        android:layout_width="190dp"
+        android:layout_height="195dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Purchase"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="317dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/purchase" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="195"
-        android:layout_height="195"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/balance"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/balance" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="195"
-        android:layout_height="195"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/help"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="317dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/help" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="379dp"
         android:layout_height="122dp"
-        app:srcCompat="@drawable/siue_letters"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="192dp" />
+        android:layout_marginTop="192dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/siue_letters" />
 </android.support.constraint.ConstraintLayout>
