@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#cf222b"
 
-    tools:context="com.example.randysharon.myapplication.MainActivity">
+    tools:context="com.example.bbuettn.senior_project.login">
 
     <Button
         android:id="@+id/button"
@@ -17,7 +17,8 @@
         android:background="#cf222b"
         android:text="@string/login"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="148dp" />
 
     <EditText
         android:id="@+id/editText"
