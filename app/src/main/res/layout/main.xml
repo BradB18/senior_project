@@ -9,16 +9,17 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/parkingButton"
         android:layout_width="190dp"
         android:layout_height="195dp"
+        android:onClick="parking"
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/parking_icon" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/balanceButton"
         android:layout_width="190dp"
         android:layout_height="195dp"
         android:scaleType="fitXY"
@@ -27,7 +28,7 @@
         app:srcCompat="@drawable/purchase" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/purchasingButton"
         android:layout_width="195dp"
         android:layout_height="195dp"
         android:adjustViewBounds="true"
@@ -37,7 +38,7 @@
         app:srcCompat="@drawable/balance" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/helpButton"
         android:layout_width="195dp"
         android:layout_height="195dp"
         android:scaleType="fitXY"
