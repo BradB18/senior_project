@@ -24,11 +24,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.purchasing);
 
+        /*Intantiating Buttons for Main Page*/
         final ImageButton parkingButton = findViewById(R.id.parkingButton);
         final ImageButton balanceButton = findViewById(R.id.balanceButton);
         final ImageButton purchasingButton = findViewById(R.id.purchasingButton);
         final ImageButton helpButton = findViewById(R.id.helpButton);
 
+
+        /* On Click actions for ImageButtons on Main Page */
         parkingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentLoadPurchasingPage);
             }
         });
+        /*End of Click actions for ImageButtons on Main Page*/
+
 
 
         listView = (ExpandableListView) findViewById(R.id.lvExp);
